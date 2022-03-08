@@ -2,7 +2,7 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import { Card } from './components/Card'
+import { CardsContainer } from './components/CardsContainer'
 
 const Home: NextPage = () => {
   return (
@@ -17,7 +17,7 @@ const Home: NextPage = () => {
         Current captured cards
       </h1>
 
-      <Card />
+      <CardsContainer />
 
       {/* <main className={styles.main}>
         <h1 className={styles.title}>
